@@ -17,7 +17,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/Mountain0208/ZYF_LingyiModuleB.git", :tag => s.version}
   s.source_files = "ZYF_LingyiModuleB/MainView/*.{h,m}"
-  s.resources    = "ß"
   s.requires_arc = true
 
 end
