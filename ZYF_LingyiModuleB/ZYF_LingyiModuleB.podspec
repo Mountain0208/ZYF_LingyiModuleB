@@ -9,14 +9,14 @@
 Pod::Spec.new do |s|
 
   s.name         = "ZYF_LingyiModuleB"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "ZYF_LingyiModuleB"
   s.homepage     = "https://github.com/Mountain0208/ZYF_LingyiModuleB.git"
   s.license      = "MIT"
   s.author       = { "zhuyafeng" => "859336389@qq.com" }
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/Mountain0208/ZYF_LingyiModuleB.git", :tag => s.version}
-  s.source_files = "ZYF_LingyiModuleB/MainView/*.{h,m}"
+  s.source_files = "/ZYF_LingyiModuleB/ZYF_LingyiModuleB/MainView/*.{h,m}"
   s.requires_arc = true
 
 end
