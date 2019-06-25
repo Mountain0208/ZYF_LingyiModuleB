@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95607A8C22C0B457002ADAB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95607A8A22C0B457002ADAB8 /* ViewController.m */; };
 		C0CB84C122BF2E9200BF17D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CB84C022BF2E9200BF17D5 /* AppDelegate.m */; };
-		C0CB84C422BF2E9200BF17D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CB84C322BF2E9200BF17D5 /* ViewController.m */; };
 		C0CB84C722BF2E9200BF17D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0CB84C522BF2E9200BF17D5 /* Main.storyboard */; };
 		C0CB84C922BF2E9300BF17D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0CB84C822BF2E9300BF17D5 /* Assets.xcassets */; };
 		C0CB84CC22BF2E9300BF17D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0CB84CA22BF2E9300BF17D5 /* LaunchScreen.storyboard */; };
@@ -35,11 +35,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		95607A8A22C0B457002ADAB8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		95607A8B22C0B457002ADAB8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C0CB84BC22BF2E9200BF17D5 /* ZYF_LingyiModuleB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYF_LingyiModuleB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0CB84BF22BF2E9200BF17D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C0CB84C022BF2E9200BF17D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C0CB84C222BF2E9200BF17D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C0CB84C322BF2E9200BF17D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C0CB84C622BF2E9200BF17D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C0CB84C822BF2E9300BF17D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0CB84CB22BF2E9300BF17D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,6 +78,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		95607A8922C0B457002ADAB8 /* ZYF_LingyiModuleB */ = {
+			isa = PBXGroup;
+			children = (
+				95607A8B22C0B457002ADAB8 /* ViewController.h */,
+				95607A8A22C0B457002ADAB8 /* ViewController.m */,
+			);
+			path = ZYF_LingyiModuleB;
+			sourceTree = "<group>";
+		};
 		C0CB84B322BF2E9200BF17D5 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +110,9 @@
 		C0CB84BE22BF2E9200BF17D5 /* ZYF_LingyiModuleB */ = {
 			isa = PBXGroup;
 			children = (
+				95607A8922C0B457002ADAB8 /* ZYF_LingyiModuleB */,
 				C0CB84BF22BF2E9200BF17D5 /* AppDelegate.h */,
 				C0CB84C022BF2E9200BF17D5 /* AppDelegate.m */,
-				C0CB84C222BF2E9200BF17D5 /* ViewController.h */,
-				C0CB84C322BF2E9200BF17D5 /* ViewController.m */,
 				C0CB84C522BF2E9200BF17D5 /* Main.storyboard */,
 				C0CB84C822BF2E9300BF17D5 /* Assets.xcassets */,
 				C0CB84CA22BF2E9300BF17D5 /* LaunchScreen.storyboard */,
@@ -262,7 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0CB84C422BF2E9200BF17D5 /* ViewController.m in Sources */,
+				95607A8C22C0B457002ADAB8 /* ViewController.m in Sources */,
 				C0CB84CF22BF2E9300BF17D5 /* main.m in Sources */,
 				C0CB84C122BF2E9200BF17D5 /* AppDelegate.m in Sources */,
 			);

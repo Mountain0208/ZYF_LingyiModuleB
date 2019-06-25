@@ -16,7 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor lightGrayColor];
+    UILabel *nameLabel = [[UILabel alloc] init];
+    nameLabel.text = @"模块B";
+    nameLabel.font = [UIFont systemFontOfSize:40];
+    nameLabel.center = self.view.center;
+    [self.view addSubview:nameLabel];
 }
 
 

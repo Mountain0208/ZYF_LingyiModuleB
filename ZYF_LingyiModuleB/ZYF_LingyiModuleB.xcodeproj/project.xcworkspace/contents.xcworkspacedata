@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:../ZYF_LingyiModuleB/ZYF_LingyiModuleB"
+      name = "ZYF_LingyiModuleB">
+      <FileRef
+         location = "group:ViewController.m">
+      </FileRef>
+      <FileRef
+         location = "group:ViewController.h">
+      </FileRef>
+   </Group>
    <FileRef
-      location = "self:ZYF_LingyiModuleB.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>
