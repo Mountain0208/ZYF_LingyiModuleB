@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ZYF_LingyiModuleB"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "ZYF_LingyiModuleB"
   s.homepage     = "https://github.com/Mountain0208/ZYF_LingyiModuleB.git"
   s.license      = "MIT"
